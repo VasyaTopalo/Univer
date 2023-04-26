@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Univer_Blog::univer_blog" title="Blog" module="Univer_Blog" sortOrder="15" resource="Univer_Blog::univer_blog" parent="Magento_Backend::content"/>
+        <add id="Univer_Blog::univer_category" title="Categories" translate="title" module="Univer_Blog" sortOrder="0" parent="Univer_Blog::univer_blog" action="univer_blog/category" resource="Univer_Blog::category"/>
+        <add id="Univer_Blog::univer_post" title="Posts" translate="title" module="Univer_Blog" sortOrder="30" parent="Univer_Blog::univer_blog" action="univer_blog/post" resource="Univer_Blog::post"/>
+        <add id="Univer_Blog::univer_author" title="Authors" translate="title" module="Univer_Blog" sortOrder="40" parent="Univer_Blog::univer_blog" action="univer_blog/author" resource="Univer_Blog::author"/>
+        <add id="Univer_Blog::univer_tag" title="Tags" translate="title" module="Univer_Blog" sortOrder="50" parent="Univer_Blog::univer_blog" action="univer_blog/tag" resource="Univer_Blog::tag"/>
+    </menu>
+</config>
